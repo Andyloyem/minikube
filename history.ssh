@@ -1,0 +1,4 @@
+kubectl apply -f pod.yml
+kubectl get po
+kubectl describe po simple-webapp-color
+kubectl port-forward simple-webapp-color 8080:8080 --address 0.0.0.0
