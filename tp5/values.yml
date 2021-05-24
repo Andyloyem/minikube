@@ -3,7 +3,7 @@ wordpressPassword: password
 service:
   type: NodePort
   nodePorts:
-    http: "30008"
+    http: "30009"
 persistence:
   enabled: false
 mariadb:
